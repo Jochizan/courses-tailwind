@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@responsive {
+  .rotate-45 {
+    transform: rotate(45deg);
+  }
+}
+
+.zoom {
+  transform: scale(2);
+}
+
+@variants hover {
+  .zoom {
+    transform: scale(2);
+  }
+}
+

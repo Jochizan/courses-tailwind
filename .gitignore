@@ -1,0 +1,8 @@
+# npm modules
+node_modules
+
+# generate css
+style.css
+
+# generate config full
+tailwind.config.full.js

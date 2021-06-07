@@ -1,0 +1,17 @@
+{
+  "name": "courses-tailwind",
+  "version": "1.0.0",
+  "description": "tailwind CSS course",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css",
+    "dev": "postcss css/tailwind.css -o public/css/style.css --watch"
+  },
+  "author": "Joan Roca Hormaza",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}
